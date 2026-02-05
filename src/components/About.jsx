@@ -87,7 +87,7 @@ const About = () => {
               logo design and video editing at affordable prices that follow the
               latest trends.
             </p>
-            <div className="flex flex-wrap gap-3 mt-6">
+           <div className="flex flex-wrap gap-3 mt-6">
               <span className="px-4 py-2 bg-orange-500/20 text-orange-400 rounded-lg text-sm border border-orange-500/30 flex items-center gap-2 font-semibold">
                 <span className="w-6 h-6 bg-orange-600 rounded flex items-center justify-center text-white text-xs font-bold">
                   Ai
@@ -114,19 +114,23 @@ const About = () => {
               </span>
 
               <span className="px-4 py-2 bg-black/20 text-gray-300 rounded-lg text-sm border border-gray-500/30 flex items-center gap-2 font-semibold">
-                <img
-                  src="/capcut.png"
-                  alt="CapCut"
-                  className="w-6 h-6 object-contain"
-                />
+                <span className="w-6 h-6 bg-black rounded flex items-center justify-center overflow-hidden">
+                  <img
+                    src="/capcut.png"
+                    alt="CapCut"
+                    className="w-full h-full object-cover"
+                  />
+                </span>
                 CapCut
               </span>
               <span className="px-4 py-2 bg-cyan-500/20 text-cyan-400 rounded-lg text-sm border border-cyan-500/30 flex items-center gap-2 font-semibold">
-                <img
-                  src="/affinity.png"
-                  alt="Canva"
-                  className="w-6 h-6 object-contain"
-                />
+                <span className="w-6 h-6 bg-white rounded flex items-center justify-center overflow-hidden">
+                  <img
+                    src="/affinity.png"
+                    alt="Canva"
+                    className="w-full h-full object-cover"
+                  />
+                </span>
                 Affinity by Canva
               </span>
             </div>
